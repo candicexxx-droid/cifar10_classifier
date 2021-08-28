@@ -10,7 +10,7 @@ Transfer learning with ResNet50 on cifar10 image data
 Restored model, accuracy(on test data): 94.93%
 
 
-To use the trained model, check out print_model_acc.py 
+To use the trained model, check out print_model_acc.py \n
 Before running this file, make sure you've downloaded the checkpoint folder, processed and save data using fetch_data.py to a directory
 
 
