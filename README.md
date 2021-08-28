@@ -17,6 +17,7 @@ Before running print_model_acc.py, make sure you've downloaded the checkpoint fo
 
 
 Notes: 
+
 fetch_data.py-download,split and preprocess cifar10 data 
 
 model.py - define model architecture
