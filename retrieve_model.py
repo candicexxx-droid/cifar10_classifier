@@ -5,7 +5,7 @@ import numpy as np
 
 # if __name__ == "main":
 
-def get_lastest_model(checkpt_path = "training_1/cp-{epoch:04d}.ckpt", data_path="/content/drive/MyDrive/VCLA-research/cifar10_np_data/x_test.npy"):
+def get_lastest_model(checkpt_path = "training_1/cp-{epoch:04d}.ckpt", data_path="/content/drive/MyDrive/VCLA-research/cifar10_np_data/"):
     
     """
     Return the most updated model from lastest checkpoint and print model's accuracy on test data. 
@@ -18,9 +18,9 @@ def get_lastest_model(checkpt_path = "training_1/cp-{epoch:04d}.ckpt", data_path
     print("latest checkpoint: ", latest)
     model = define_compile_model()
     model.load_weights(latest)
-
-    x_test = np.load(data_path)
-    y_test = np.load(data_path)
+    print(data_path+"x_test.npy")
+    x_test = np.load(data_path+"x_test.npy")
+    y_test = np.load(data_path+"y_test.npy")
 
     loss, acc = model.evaluate(x_test, y_test, verbose=2)
     print("Restored model, accuracy(on test data): {:5.2f}%".format(100 * acc))
