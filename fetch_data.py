@@ -34,4 +34,4 @@ def fetch_data(save_dir = "/content/drive/MyDrive/VCLA-research/cifar10_np_data/
   print("all data saved to " + save_dir)
 
 
-fetch_data()
+#fetch_data()
