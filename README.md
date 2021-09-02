@@ -4,7 +4,7 @@ Reference:
 https://www.kaggle.com/kutaykutlu/resnet50-transfer-learning-cifar-10-beginner
 
 link to checkpoint folder: 
-https://drive.google.com/drive/folders/1Xa61awYeoYnQKJ6PD_JNTO_nAOmOnM7X?usp=sharing
+https://drive.google.com/drive/folders/1-5nAkZtNbTqc_Z5LQLCLUULEewmLy-ye?usp=sharing
 
 Transfer learning with ResNet50 on cifar10 image data
 
