@@ -8,7 +8,8 @@ https://drive.google.com/drive/folders/1Xa61awYeoYnQKJ6PD_JNTO_nAOmOnM7X?usp=sha
 
 Transfer learning with ResNet50 on cifar10 image data
 
-Restored model, accuracy(on test data): 94.93%
+Restored model, accuracy(on test data): 94.50%
+
 
 
 To use the trained model, check out print_model_acc.py 
